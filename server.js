@@ -4,8 +4,6 @@ import rateLimit from "express-rate-limit";
 import cors from "cors";
 
 const app = express();
-
-t;
 app.use(helmet());
 
 const corsOptions = {
